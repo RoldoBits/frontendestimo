@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  display: flex;
+  width:100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    align-self: top;
+    width: 280px;
+    height: 280px;
+    margin-bottom: 80px;
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: url("./img/Rectangle.png");
+  overflow:hidden;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.space{
+  height: 30px;
+}
+
+.Login{
+  /* Rectangle 3 */
+
+
+width: 209px;
+height: 70px;
+left: 75px;
+top: 364px;
+
+background: #F78888;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  display:flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.center{
+  margin: auto;
+}
+
+.text{
+  /* Iniciar sessió */
+
+width: 157px;
+height: 48px;
+left: calc(50% - 157px/2 - 0.5px);
+top: 375px;
+
+font-family: Gloria Hallelujah;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 48px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
