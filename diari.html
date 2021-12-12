@@ -6,6 +6,7 @@
             
             <meta name="author" content="Roldo">
             <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
             <link rel="stylesheet" href="diari.css">
             
             <style>
@@ -19,12 +20,22 @@
         </head>
         
         <body>
+          <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+              <div class="w3-container">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                class="w3-button w3-display-topright">&times;</span>
+                <input id="data" type="text"/>
+                <button onclick="save()">Guardar</button>
+              </div>
+            </div>
+          </div>
           <div class=android___12_20_174><div  class="rectangle_20_175"></div><div  class="rectangle_34_20_176"></div><span  class="el_meu_diari_20_177">El meu diari</span><div  class="rectangle_35_20_178"></div>
           <!-- note rectangle -->
           <div id="main_div" style="overflow-y: scroll; padding-top: 10px;" class="rectangle_36_20_179">
             
           </div>
-          <div  class="ellipse_8_20_180"></div></div>
+          <div  class="ellipse_8_20_180" onclick="document.getElementById('id01').style.display='block'"></div></div>
         </body>
         <script src="diari.js"></script>
         </html>
