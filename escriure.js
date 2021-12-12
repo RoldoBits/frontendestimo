@@ -1,5 +1,5 @@
 TOKEN=window.location.search;
-fetch('http://105c-193-144-12-226.ngrok.io/user/get_messages'+TOKEN,{
+fetch('http://759a-193-144-12-226.ngrok.io/user/get_messages'+TOKEN,{
         method: 'GET',
         // body: JSON.stringify({token:TOKEN}),
         headers: {
@@ -37,7 +37,7 @@ function saveAll(){
     }
 }
 function save(id){
-    fetch('http://105c-193-144-12-226.ngrok.io/user/edit_message'+TOKEN+'&id='+id+'&message='+document.getElementById(id).value,{
+    fetch('http://759a-193-144-12-226.ngrok.io/user/edit_message'+TOKEN+'&id='+id+'&message='+document.getElementById(id).value,{
         method: 'POST',
         // body: JSON.stringify({token:TOKEN,data:document.getElementById(id).value,id:id}),
         headers: {

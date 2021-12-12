@@ -1,5 +1,5 @@
 TOKEN=window.location.search;
-fetch('http://105c-193-144-12-226.ngrok.io/user/get_messages'+TOKEN,{
+fetch('http://759a-193-144-12-226.ngrok.io/user/get_messages'+TOKEN,{
         method: 'GET',
         // body: JSON.stringify({token:TOKEN}),
         headers: {
