@@ -1,5 +1,5 @@
 TOKEN=window.location.search;
-fetch('http://759a-193-144-12-226.ngrok.io/user/get_journal'+TOKEN,{
+fetch('http://localhost:8000/user/get_journal'+TOKEN,{
         method: 'GET',
         // body: JSON.stringify({token:TOKEN}),
         headers: {

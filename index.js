@@ -6,7 +6,7 @@ function go() {
         email: d_email,
         password: d_password
     };
-    fetch('http://759a-193-144-12-226.ngrok.io/user/login',{
+    fetch('http://localhost:8000/user/login',{
         method: 'POST',
         body: JSON.stringify(data),
         headers: {
