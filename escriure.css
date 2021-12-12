@@ -1,0 +1,61 @@
+.11_92 { 
+	overflow:hidden;
+}.android___10_11_92 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:360px;
+	height:640px;
+	position:absolute;
+}.rectangle_15_120 { 
+	width:360px;
+	height:640px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(images/rectangle.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}.rectangle_34_11_93 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(144.00000661611557, 204.00000303983688, 244.0000006556511, 1);
+	width:360px;
+	height:91px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}.per_a_un_jo_futur_11_94 { 
+	color:rgba(0, 0, 0, 1);
+	width:273px;
+	height:59px;
+	position:absolute;
+	left:43px;
+	top:16px;
+	font-family:Gloria Hallelujah;
+	text-align:center;
+	font-size:31px;
+	letter-spacing:0;
+}.rectangle_35_11_95 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(243.00000071525574, 210.00000268220901, 80.00000283122063, 1);
+	width:303px;
+	height:400px;
+	position:absolute;
+	left:28px;
+	top:134px;
+}.rectangle_36_11_96 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(144.00000661611557, 204.00000303983688, 244.0000006556511, 1);
+	width:303px;
+	height:477px;
+	position:absolute;
+	left:28px;
+	top:134px;
+}.ellipse_8_11_98 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius:500px;
+	background-color:rgba(7.410932332277298, 59.96683560311794, 98.81249696016312, 1);
+	width:46px;
+	height:46px;
+	position:absolute;
+	left:157px;
+	top:111px;
+}

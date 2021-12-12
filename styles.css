@@ -1,0 +1,83 @@
+.20_207 { 
+	overflow:hidden;
+}.android___13_20_207 { 
+	background-color:rgba(255, 254.00000005960464, 252.00000017881393, 1);
+	width:360px;
+	height:640px;
+	position:absolute;
+}.rectangle_20_208 { 
+	width:360px;
+	height:640px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(images/rectangle.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}.rectangle_17_20_210 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(7.000000057742, 60.00000022351742, 99.00000169873238, 1);
+	width:222px;
+	height:68px;
+	position:absolute;
+	left:74px;
+	top:517px;
+}.iniciar_sessi__20_212 { 
+	color:rgba(255, 255, 255, 1);
+	width:171px;
+	height:69px;
+	position:absolute;
+	left:99px;
+	top:516px;
+	font-family:Gloria Hallelujah;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}.rectangle_41_20_220 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(240.12499898672104, 249.05000567436218, 255, 1);
+	width:222px;
+	height:37px;
+	position:absolute;
+	left:74px;
+	top:335px;
+}.correu_electr_nic_20_234 { 
+	color:rgba(0, 0, 0, 1);
+	width:150px;
+	height:36px;
+	position:absolute;
+	left:74px;
+	top:299px;
+	font-family:Gloria Hallelujah;
+	text-align:center;
+	font-size:18px;
+	letter-spacing:0;
+}.rectangle_42_20_221 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(240.12499898672104, 249.05000567436218, 255, 1);
+	width:222px;
+	height:37px;
+	position:absolute;
+	left:74px;
+	top:421px;
+}.contrasenya_20_235 { 
+	color:rgba(0, 0, 0, 1);
+	width:110px;
+	height:36px;
+	position:absolute;
+	left:74px;
+	top:385px;
+	font-family:Gloria Hallelujah;
+	text-align:center;
+	font-size:18px;
+	letter-spacing:0;
+}.rectangle_46_35_240 { 
+	width:199px;
+	height:189px;
+	position:absolute;
+	left:85px;
+	top:80px;
+	background-image:url(images/rectangle_46.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
