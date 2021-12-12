@@ -17,9 +17,10 @@ function createElements(data){
     main.innerHTML="";
     for (let [key, value] of Object.entries(data)) {
         var para = document.createElement("P");               // Create a <p>   element
-        para.style.border="1px solid black";
+        // para.style.border="1px solid black";
         para.style.margin="15px";
-        para.innerText = key+' - '+value.data;               // Insert text
+        para.style.fontFamily="Gloria Hallelujah";
+        para.innerText = key.split(' ')[0]+' - '+value.data;               // Insert text
         main.appendChild(para);  
     }
 }

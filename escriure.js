@@ -32,6 +32,7 @@ function add(){
     para.style.border="1px solid black";
     para.style.margin="15px";
     para.style.width="80%";
+    para.style.fontFamily="Gloria Hallelujah";
     para.style.background= "transparent";
     para.id="adding";             // Insert text
     main.appendChild(para);
