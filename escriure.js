@@ -15,10 +15,14 @@ function createElements(data){
     
     for (let [key, value] of Object.entries(data)) {
         var para = document.createElement("input");               // Create a <p>   element
-        para.style.border="1px solid black";
+        // para.style.border="1px solid";
         para.style.margin="15px";
         para.style.width="80%";
-        para.style.background= "transparent";
+        para.style.background= "#FFFEFC";
+        para.style.fontFamily="Gloria Hallelujah";
+
+
+        // para.style.background= "transparent";
         para.id=key;
         ids.push(key);
         para.value = value.data;               // Insert text
